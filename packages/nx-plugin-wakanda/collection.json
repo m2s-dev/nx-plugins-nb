@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "nx-plugin-wakanda",
+  "version": "0.0.1",
+  "schematics": {
+    "nx-plugin-wakanda": {
+      "factory": "./src/schematics/nx-plugin-wakanda/schematic",
+      "schema": "./src/schematics/nx-plugin-wakanda/schema.json",
+      "description": "nx-plugin-wakanda schematic"
+    }
+  }
+}

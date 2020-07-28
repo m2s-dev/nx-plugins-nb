@@ -1,0 +1,17 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "nx-plugin-boule",
+  "version": "0.0.1",
+  "schematics": {
+    "test": {
+      "factory": "./src/schematics/nx-plugin-boule/schematic",
+      "schema": "./src/schematics/nx-plugin-boule/schema.json",
+      "description": "nx-plugin-boule schematic"
+    },
+    "ngrx": {
+      "factory": "./src/schematics/ngrx/ngrx",
+      "schema": "./src/schematics/ngrx/schema.json",
+      "description": "Add an ngrx config to a project"
+    }
+  }
+}
