@@ -1,0 +1,12 @@
+{
+  "$schema": "../../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "name": "nb-nx-workspace",
+  "version": "0.0.1",
+  "schematics": {
+    "nb-nx-workspace": {
+      "factory": "./src/schematics/nb-nx-workspace/schematic",
+      "schema": "./src/schematics/nb-nx-workspace/schema.json",
+      "description": "nb-nx-workspace schematic"
+    }
+  }
+}

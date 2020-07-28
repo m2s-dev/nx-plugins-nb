@@ -17,7 +17,8 @@
     "baseUrl": ".",
     "paths": {
       "m2s-dev/nx-plugin-wakanda": ["libs/nx-plugin-wakanda/src/index.ts"],
-      "@m2s-dev/nx-plugin-boule": ["libs/nx-plugin-boule/src/index.ts"]
+      "@m2s-dev/nx-plugin-boule": ["libs/nx-plugin-boule/src/index.ts"],
+      "m@2s-dev/nb-nx-workspace": ["libs/nb-nx-workspace/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

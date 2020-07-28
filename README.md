@@ -1,4 +1,9 @@
-# M2sDev
+# m2s.dev
+
+## Add new plugin
+```bash
+nx g @nrwl/nx-plugin:plugin nx-plugin-boule --importPath @m2s-dev/nx-plugin-boule
+```
 
 This project was generated using [Nx](https://nx.dev).
 

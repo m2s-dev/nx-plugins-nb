@@ -35,6 +35,13 @@
     "nx-plugin-boule-e2e": {
       "tags": [],
       "implicitDependencies": ["nx-plugin-boule"]
+    },
+    "nb-nx-workspace": {
+      "tags": []
+    },
+    "nb-nx-workspace-e2e": {
+      "tags": [],
+      "implicitDependencies": ["nb-nx-workspace"]
     }
   },
   "workspaceLayout": {
