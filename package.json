@@ -26,7 +26,9 @@
     "help": "nx help"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "@nrwl/angular": "^10.0.6"
+  },
   "devDependencies": {
     "@nrwl/eslint-plugin-nx": "10.0.6",
     "@nrwl/jest": "10.0.6",

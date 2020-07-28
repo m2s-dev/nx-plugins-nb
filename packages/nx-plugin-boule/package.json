@@ -1,6 +1,6 @@
 {
   "name": "@m2s-dev/nx-plugin-boule",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "main": "src/index.js",
   "schematics": "./collection.json",
   "builders": "./builders.json"
